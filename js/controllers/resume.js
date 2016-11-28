@@ -26,9 +26,7 @@
             }
             var input = fileInput.get(0);
 
-            // Create a reader object
             var reader = new FileReader();
-            // debugger;
             if(input.files.length) {
                 if(input.files[0].type === "text/plain") {
                     var textFile = input.files[0];
@@ -48,11 +46,52 @@
             var file = e.target.result,
                 results;
             if(file && file.length) {
-                var div = document.getElementById('TextArea');
                 results = DataService.dataParse(file);
-                for(var i = 0; i < results.length; i++) {
-                    div.innerHTML += results[i] + "<br>";
+
+                //Name
+                var name = document.getElementById('name');
+                name.innerHTML += results[0];
+
+                //Contact
+                var contact = document.getElementById('contact');
+                contact.innerHTML += results[1] + "<br>" + results[2];
+
+                //Objective
+                var objective = document.getElementById('objective');
+                objective.innerHTML += "<i>OBJECTIVE:</i>" + " " + results[3][1] + "<hr>";
+
+                //Key Skills
+                var skills = document.getElementById('key_skills');
+                skills.innerHTML += "<b><h3>Professional Skills</h3></b>";
+                for(var i = 1; i < results[4].length; i++) {
+                    skills.innerHTML += results[4][i] + "<br>";
                 }
+
+                //Employment
+                var placeholder = document.getElementById('placeholder');
+                var employment = document.getElementById('employment');
+                var title = document.getElementById('title');
+                var date = document.getElementById('date');
+                var tasks = document.getElementById('tasks');
+                employment.innerHTML += "<hr><b><h3>Employment</h3></b>";
+                $('#title1').append(results[5][0][0]).append('<br>').append(results[5][0][1]);
+                $('#title2').append('<br>').append(results[5][1][0]).append('<br>').append(results[5][1][1]);
+                $('#date1').append(results[5][0][2]);
+                $('#date2').append(results[5][1][2]);
+                for(var j = 3; j < results[5][1].length; j++) {
+                    $('#tasks1').append(document.createElement('div')).append(results[5][0][j]);
+                    $('#tasks2').append(document.createElement('div')).append(results[5][1][j]);
+                }
+
+
+                //Education
+                var education = document.getElementById('education');
+                education.innerHTML += '<hr><b><h3>Education</h3></b>';
+                education.innerHTML += "<h4>" + results[6][1] + "</h4>";
+                education.innerHTML += results[6][0] + "in " + results[6][3] + "<br>";
+                education.innerHTML += "Minor: " + results[6][4] + "<br>";
+                education.innerHTML += "GPA: " + results[6][0];
+
             }
         }
     }

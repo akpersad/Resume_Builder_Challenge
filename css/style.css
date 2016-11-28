@@ -1,12 +1,113 @@
+body{
+    margin-top: 70px;
+    background-color: #d4cfa7;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .generated-resume{
-    background: darkgray;
-    margin: 10px;
-    height: 1024px;
-    /*max-width: 50%;*/
-    /*min-width: 800px;*/
-    position: relative;
-    display:inline-block;
+    background: white;
+    height: 90%;
+    max-width: 50%;
+    min-width: 800px;
     padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    border: solid 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: visible;
+}
+
+.navbar{
+    background: #565656;
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+}
+
+.panel{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    text-align: center;
+    border-color: #707070;
+}
+
+.panel-primary .panel-heading{
+    background: #565656;
+    border-color: #707070;
+}
+
+.btn-andrew{
+    color: #fff;
+    background: #565656;
+    border-color: #707070;
+}
+
+.btn-andrew:hover, .btn-andrew:focus, .btn-andrew:active, .btn-andrew.active, .open > .dropdown-toggle.btn-andrew{
+    color: #fff;
+    background-color: #644848;
+    border-color: #5d4f4f;
+}
+
+hr{
+    border-top: 1px solid gray;
+}
+
+#name{
+    font-size: 22px;
+}
+
+#contact{
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    left: 70%;
+}
+
+#objective{
+    position: relative;
+    top: 80px;
+    font-size: large;
+    display: inline-block;
+}
+
+#key_skills{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+
+#placeholder{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+/*#employment{*/
+/*//display: inline-block;*/
+/*position: relative;*/
+/*top: 100px;*/
+/*}*/
+
+#education{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+.title{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.date{
+    float: right;
 }
