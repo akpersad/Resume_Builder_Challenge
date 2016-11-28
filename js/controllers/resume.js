@@ -51,7 +51,9 @@
             if(file && file.length) {
                 var div = document.getElementById('TextArea');
                 results = DataService.dataParse(file);
-                div.innerHTML += results;
+                for(var i = 0; i < results.length; i++) {
+                    div.innerHTML += results[i] + "<br>";
+                }
                 // debugger;
             }
             // return results;
