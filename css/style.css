@@ -1,6 +1,6 @@
-body{
+body {
     margin-top: 70px;
-    background-color: #d4cfa7;
+    background-color: #D4CFA7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -22,15 +22,15 @@ body{
     overflow: visible;
 }
 
-.navbar{
+.navbar {
     background: #565656;
 }
 
-.navbar .navbar-brand{
-    color: #fff;
+.navbar .navbar-brand {
+    color: #ffffff;
 }
 
-.panel{
+.panel {
     width: 50%;
     position: relative;
     left: 25%;
@@ -38,24 +38,24 @@ body{
     border-color: #707070;
 }
 
-.panel-primary .panel-heading{
+.panel-primary .panel-heading {
     background: #565656;
     border-color: #707070;
 }
 
-.btn-andrew{
-    color: #fff;
+.btn-andrew {
+    color: #ffffff;
     background: #565656;
     border-color: #707070;
 }
 
-.btn-andrew:hover, .btn-andrew:focus, .btn-andrew:active, .btn-andrew.active, .open > .dropdown-toggle.btn-andrew{
+.btn-andrew:hover, .btn-andrew:focus, .btn-andrew:active, .btn-andrew.active, .open>.dropdown-toggle.btn-andrew {
     color: #fff;
     background-color: #644848;
     border-color: #5d4f4f;
 }
 
-hr{
+hr {
     border-top: 1px solid gray;
 }
 
@@ -65,7 +65,7 @@ hr{
 
 #contact{
     font-size: 16px;
-    display: inline-block;
+    display:inline-block;
     position: relative;
     left: 70%;
 }

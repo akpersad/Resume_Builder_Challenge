@@ -26,6 +26,7 @@
             }
             var input = fileInput.get(0);
 
+            // Create a reader object
             var reader = new FileReader();
             if(input.files.length) {
                 if(input.files[0].type === "text/plain") {
@@ -63,7 +64,7 @@
                 //Key Skills
                 var skills = document.getElementById('key_skills');
                 skills.innerHTML += "<b><h3>Professional Skills</h3></b>";
-                for(var i = 1; i < results[4].length; i++) {
+                for (var i = 1; i < results[4].length; i++){
                     skills.innerHTML += results[4][i] + "<br>";
                 }
 
