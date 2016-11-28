@@ -9,17 +9,16 @@ body {
 
 .generated-resume{
     background: white;
-    height: 90%;
+    height: 1024px;
     max-width: 50%;
     min-width: 800px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    position: fixed;
+    position: relative;
     border: solid 1px;
     margin-left: 20px;
     margin-right: 20px;
-    overflow: visible;
 }
 
 .navbar {
