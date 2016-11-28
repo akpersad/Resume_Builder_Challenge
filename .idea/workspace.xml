@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36cffa2-96cb-4f23-b676-29b1ef27c5ad" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/resume.js" afterPath="$PROJECT_DIR$/js/controllers/resume.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/factories/dataservice.js" afterPath="$PROJECT_DIR$/js/factories/dataservice.js" />
     </list>
@@ -39,14 +40,14 @@
       <file leaf-file-name="resume.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/resume.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+            <state relative-caret-position="746">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -68,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataservice.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dataservice.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/factories/dataservice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+            <state relative-caret-position="701">
+              <caret line="90" column="42" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -100,8 +101,8 @@
         <option value="$PROJECT_DIR$/js/directives/elastic.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/controllers/resume.js" />
         <option value="$PROJECT_DIR$/js/factories/dataservice.js" />
+        <option value="$PROJECT_DIR$/js/controllers/resume.js" />
       </list>
     </option>
   </component>
@@ -352,7 +353,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27820000" />
+    <option name="totallyTimeSpent" value="28655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,10 +476,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/factories/dataservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="90" column="42" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/resume.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        <state relative-caret-position="746">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -490,14 +499,6 @@
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/factories/dataservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>

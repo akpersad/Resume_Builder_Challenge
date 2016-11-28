@@ -3,7 +3,7 @@
         .module("resume_uploader")
         .controller("resumeCtrl", ResumeController);
 
-    ResumeController.$inject =['DataService'];
+    ResumeController.$inject = ['DataService'];
 
     function ResumeController(DataService) {
         this.DataService = DataService;
@@ -47,16 +47,13 @@
         function processFile(e) {
             var file = e.target.result,
                 results;
-                // debugger;
             if(file && file.length) {
                 var div = document.getElementById('TextArea');
                 results = DataService.dataParse(file);
                 for(var i = 0; i < results.length; i++) {
                     div.innerHTML += results[i] + "<br>";
                 }
-                // debugger;
             }
-            // return results;
         }
     }
 })();
