@@ -1,0 +1,12 @@
+.generated-resume{
+    background: darkgray;
+    margin: 10px;
+    height: 1024px;
+    /*max-width: 50%;*/
+    /*min-width: 800px;*/
+    position: relative;
+    display:inline-block;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
